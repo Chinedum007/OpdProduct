@@ -1,0 +1,257 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Aug 15 17:47:21 BST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>272 seconds (272646 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='scripts.TC007.MakeMultipleBookings()'><b>MakeMultipleBookings</b><br>Test class: scripts.TC007<br>Test method: As an admin I want to be able to make multiple bookings at a time<br/>
+<a href="#Output-738174829" onClick='toggleBox("Output-738174829", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-738174829" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-738174829">
+Select the 7th,8th and 9th of Jun 2022<br/>
+Select All Day<br/>
+Enter clinic Name<br/>
+Add Room<br/>
+Complete the add room form and save booking<br/>
+</div>
+</td>
+<td></td>
+<td>38</td>
+<td>scripts.TC007@35ef1869</td></tr>
+<tr>
+<td title='scripts.TC022.EditAReasonForCancellation()'><b>EditAReasonForCancellation</b><br>Test class: scripts.TC022<br>Test method: As and admin I would like to edit reason for cancellation<br/>
+<a href="#Output-1991443937" onClick='toggleBox("Output-1991443937", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1991443937" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1991443937">
+Hover mouse to Administrator tab and click on it<br/>
+Click on the clinic type tab to open<br/>
+Click on edit button<br/>
+Enter description AAA Test<br/>
+Click on save button<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>scripts.TC022@7193666c</td></tr>
+<tr>
+<td title='scripts.TC006.BookingPrevention()'><b>BookingPrevention</b><br>Test class: scripts.TC006<br>Test method: As an admin I want to be able to prevent a booking on a room<br/>
+<a href="#Output-1064456966" onClick='toggleBox("Output-1064456966", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1064456966" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1064456966">
+Hover mouse to booking tab and click on it<br/>
+Click on new booking prevention tab to open<br/>
+wait for page to open<br/>
+Select a hospital<br/>
+Select a room<br/>
+Select month, year and dates 7th and 8th<br/>
+Select period<br/>
+Enter reason for room prevention<br/>
+Click on save button to save form<br/>
+Booking prevention created for room name= Area C1 on the 7th of Mar 2022<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>scripts.TC006@291ae</td></tr>
+<tr>
+<td title='scripts.TC017.deletePreventionBookings()'><b>deletePreventionBookings</b><br>Test class: scripts.TC017<br>Test method: As an admin I want to be able to delete prevention bookings<br/>
+<a href="#Output-1262638455" onClick='toggleBox("Output-1262638455", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1262638455" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1262638455">
+Hover mouse to Reports tab and click on it<br/>
+Click on Booking Prevention tab to open<br/>
+Select month, year and date the 8th<br/>
+Click search button to display result<br/>
+Click view button to view result<br/>
+Booking Prevention deleted<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>scripts.TC017@16ec5519</td></tr>
+<tr>
+<td title='scripts.TC021.createAreasonForCancellation()'><b>createAreasonForCancellation</b><br>Test class: scripts.TC021<br>Test method: As an admin I want to be able to create a reason for cancellation<br/>
+<a href="#Output-1799199800" onClick='toggleBox("Output-1799199800", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1799199800" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1799199800">
+Hover mouse to Administrator tab and click on it<br/>
+Click on the clinic type tab to open<br/>
+Testing the Back to List link that it works and go back to create <br/>
+Create on the create btn to open the create page<br/>
+A test is created<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>scripts.TC021@5119fb47</td></tr>
+<tr>
+<td title='scripts.TC011.deleteAllMultipleBookings()'><b>deleteAllMultipleBookings</b><br>Test class: scripts.TC011<br>Test method: As an Admin I want to be able to delete multiple bookings<br/>
+<a href="#Output-1998397435" onClick='toggleBox("Output-1998397435", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1998397435" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1998397435">
+Select the dates you want to delete<br/>
+Clickon search button to search date<br/>
+Select the booking you would like to delete<br/>
+Click on delete button<br/>
+Select all other bookings in that series<br/>
+Click Submit button to finally delete bookings<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>scripts.TC011@243c4f91</td></tr>
+<tr>
+<td title='scripts.TC016.updateBookingPrevention()'><b>updateBookingPrevention</b><br>Test class: scripts.TC016<br>Test method: As an admin I want to edit dates of my booking prevention<br/>
+<a href="#Output-1066856480" onClick='toggleBox("Output-1066856480", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1066856480" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1066856480">
+Hover mouse to Reports tab and click on it<br/>
+Click on Booking Prevention tab to open<br/>
+Select month, year and date the 8th<br/>
+Click search button to display result<br/>
+Click view button to view result<br/>
+Click on edit and then remove one of the dates<br/>
+Click on back to prevention page to view update<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>scripts.TC016@50eac852</td></tr>
+<tr>
+<td title='scripts.TC019.deleteAClinicType()'><b>deleteAClinicType</b><br>Test class: scripts.TC019<br>Test method: As an admin I want to be able to delete clinic types<br/>
+<a href="#Output-645435839" onClick='toggleBox("Output-645435839", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-645435839" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-645435839">
+Hover mouse to Administrator tab and click on it<br/>
+Click on the clinic type tab to open<br/>
+Clinic type deleted<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>scripts.TC019@6a192cfe</td></tr>
+<tr>
+<td title='scripts.TC015.bookingPreventionReport()'><b>bookingPreventionReport</b><br>Test class: scripts.TC015<br>Test method: As an admin I want to view report for booking preventions<br/>
+<a href="#Output-1859724001" onClick='toggleBox("Output-1859724001", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1859724001" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1859724001">
+Hover mouse to Reports tab and click on it<br/>
+Click on Booking Prevention tab to open<br/>
+Select month, year and date the 8th<br/>
+Click search button to display result<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>scripts.TC015@61df66b6</td></tr>
+<tr>
+<td title='scripts.TC023.deleteAReasonForCancellation()'><b>deleteAReasonForCancellation</b><br>Test class: scripts.TC023<br>Test method: As an admin I would like to delete reason for cancellation<br/>
+<a href="#Output-682976813" onClick='toggleBox("Output-682976813", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-682976813" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-682976813">
+Hover mouse to Administrator tab and click on it<br/>
+Click on the clinic type tab to open<br/>
+Clinic type deleted<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>scripts.TC023@20deea7f</td></tr>
+<tr>
+<td title='scripts.TC020.createAClinicType()'><b>createAClinicType</b><br>Test class: scripts.TC020<br>Test method: As an admin I would like to create a clinic type<br/>
+<a href="#Output-1406593369" onClick='toggleBox("Output-1406593369", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1406593369" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1406593369">
+Hover mouse to Administrator tab and click on it<br/>
+Click on the clinic type tab to open<br/>
+12345 created<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>scripts.TC020@2f7298b</td></tr>
+</table><p>
+</body>
+</html>

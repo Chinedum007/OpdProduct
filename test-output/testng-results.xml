@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[LogOut from page]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-12-07T10:04:44 GMT" name="Default suite" finished-at="2023-12-07T10:05:12 GMT" duration-ms="28508">
+    <groups>
+    </groups>
+    <test started-at="2023-12-07T10:04:44 GMT" name="Default test" finished-at="2023-12-07T10:05:12 GMT" duration-ms="28508">
+      <class name="scripts.TC001">
+        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scripts.TC001@6ca8564a]" started-at="2023-12-07T10:04:44 GMT" name="openApp" finished-at="2023-12-07T10:05:03 GMT" duration-ms="19332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://test.bws-web/OPDSitesv2_7_Period/Account/LogOn?returnUrl=http%3A%2F%2Ftest.bws-web%2FOPDSitesv2_7_Period%2F%3Ftarget%3D_blank]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method is-config="true" signature="loginToApp(java.lang.String,java.lang.String)[pri:0, instance:scripts.TC001@6ca8564a]" started-at="2023-12-07T10:05:03 GMT" name="loginToApp" finished-at="2023-12-07T10:05:06 GMT" duration-ms="3499" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="testProductLoginAndLogOut()[pri:0, instance:scripts.TC001@6ca8564a]" started-at="2023-12-07T10:05:06 GMT" name="testProductLoginAndLogOut" description="To Verify Admin is able to login with right credntials" finished-at="2023-12-07T10:05:06 GMT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductLoginAndLogOut -->
+        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:scripts.TC001@6ca8564a]" started-at="2023-12-07T10:05:06 GMT" name="logout" finished-at="2023-12-07T10:05:12 GMT" duration-ms="5266" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testProductLoginAndLogOut status=SUCCESS method=TC001.testProductLoginAndLogOut()[pri:0, instance:scripts.TC001@6ca8564a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[LogOut from page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:scripts.TC001@6ca8564a]" started-at="2023-12-07T10:05:12 GMT" name="closeApp" finished-at="2023-12-07T10:05:12 GMT" duration-ms="357" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- scripts.TC001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
